@@ -1,0 +1,12 @@
+*
+
+!README.md
+!Makefile
+!.gitignore
+!.editorconfig
+
+!Coin.java
+!Program1_CountFlips.java
+!Program2_PrintVowelsAndNonVowels.java
+!Program3_TheTwelveDaysOfChristmas.java
+!Program4_OneHundredBottlesOfBeer.java
