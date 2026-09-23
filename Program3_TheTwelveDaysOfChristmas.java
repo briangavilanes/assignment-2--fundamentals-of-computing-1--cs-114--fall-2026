@@ -1,5 +1,7 @@
 public class Program3_TheTwelveDaysOfChristmas {
   public static void main(String[] args) {
+    System.out.println("12 days of christmas");
+
     for (int i = 1; i <= 12; i++) {
       String message = "On the " + i;
 
@@ -48,6 +50,8 @@ public class Program3_TheTwelveDaysOfChristmas {
       }
 
       message += "\n____________________";
+
+      System.out.println(message);
     }
   }
 }
