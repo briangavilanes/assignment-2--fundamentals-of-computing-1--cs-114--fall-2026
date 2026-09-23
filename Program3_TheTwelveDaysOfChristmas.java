@@ -17,6 +17,35 @@ public class Program3_TheTwelveDaysOfChristmas {
           message += "th";
           break;
       }
+
+      message += " day of Christmas, my true love gave to me";
+
+      switch (i) {
+        case 12:
+          message += "\nTwelve drummers drumming,";
+        case 11:
+          message += "\nEleven pipers piping,";
+        case 10:
+          message += "\nTen lords a-leaping,";
+        case 9:
+          message += "\nNine ladies dancing,";
+        case 8:
+          message += "\nEight maids a-milking,";
+        case 7:
+          message += "\nSeven swans a-swimming,";
+        case 6:
+          message += "\nSix geese a-laying,";
+        case 5:
+          message += "\nFive golden rings,";
+        case 4:
+          message += "\nFour calling birds,";
+        case 3:
+          message += "\nThree French hens,";
+        case 2:
+          message += "\nTwo turtle doves, and";
+        case 1:
+          message += "\nA partridge in a pear tree.";
+      }
     }
   }
 }
