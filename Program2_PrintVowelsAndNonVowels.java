@@ -25,6 +25,8 @@ public class Program2_PrintVowelsAndNonVowels {
       }
     }
 
+     System.out.println("| Results\n| Original string: " + userString + "\n| Number of vowels: " + vowelCount + "\n| Number of non vowels " + nonVowelCount + "");
+
     input.close();
   }
 }
