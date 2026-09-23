@@ -1,6 +1,6 @@
 public class Program3_TheTwelveDaysOfChristmas {
   public static void main(String[] args) {
-    System.out.println("12 days of christmas");
+    System.out.println("12 days of christmas\n");
 
     for (int i = 1; i <= 12; i++) {
       String message = "On the " + i;
@@ -49,7 +49,7 @@ public class Program3_TheTwelveDaysOfChristmas {
           message += "\nA partridge in a pear tree.";
       }
 
-      message += "\n____________________";
+      message += "\n____________________\n";
 
       System.out.println(message);
     }
