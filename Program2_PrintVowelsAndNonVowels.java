@@ -19,9 +19,9 @@ public class Program2_PrintVowelsAndNonVowels {
       char letter = userString.charAt(textLength);
 
       if (letter == 'A' || letter == 'a' || letter == 'E' || letter == 'e' || letter == 'I' || letter == 'i' || letter == 'O' || letter == 'o' || letter == 'U' || letter == 'u') {
-        nonVowelCount += 1;
-      } else {
         vowelCount += 1;
+      } else {
+        nonVowelCount += 1;
       }
     }
 
