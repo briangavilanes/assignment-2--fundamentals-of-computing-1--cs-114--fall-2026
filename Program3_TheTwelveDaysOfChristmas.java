@@ -46,6 +46,8 @@ public class Program3_TheTwelveDaysOfChristmas {
         case 1:
           message += "\nA partridge in a pear tree.";
       }
+
+      message += "\n____________________";
     }
   }
 }
